@@ -28,16 +28,16 @@ public class MainActivity extends AppCompatActivity {
 
         listView = (ListView) findViewById(R.id.listView);
 
-        list.add("1 Fuad");
-        list.add("2 Fuad");
+        list.add("1 Pritom");
+        list.add("2 Mustafiz");
         list.add("3 Fuad");
-        list.add("4 Fuad");
-        list.add("5 Fuad");
-        list.add("6 Fuad");
-        list.add("7 Fuad");
-        list.add("8 Fuad");
-        list.add("9 Fuad");
-        list.add("10 Fuad");
+        list.add("4 Anik");
+        list.add("5 Mithun");
+        list.add("6 Komol");
+        list.add("7 Pankaj");
+        list.add("8 Mijan");
+        list.add("9 Hridoy");
+        list.add("10 Shahi");
 
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, list);
         listView.setAdapter(adapter);
